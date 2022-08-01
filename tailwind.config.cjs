@@ -2,16 +2,6 @@
 
 module.exports = {
   theme: {
-    themeVariants: ['dark'],
-    customForms: (theme) => ({
-      default: {
-        'input, textarea': {
-          '&::placeholder': {
-            color: theme('colors.gray.400'),
-          },
-        },
-      },
-    }),
     colors: {
       transparent: 'transparent',
       white: '#ffffff',
